@@ -1,6 +1,6 @@
 {
   "name": "@codetheorist/vue-timepieces",
-  "version": "0.0.6-0",
+  "version": "0.0.6",
   "main": "./dist/vue-timepieces.common.js",
   "publishConfig": {
     "access": "public"
