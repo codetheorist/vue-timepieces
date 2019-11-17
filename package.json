@@ -1,6 +1,6 @@
 {
-  "name": "vue-timepieces",
-  "version": "0.1.0",
+  "name": "@codetheorist/vue-timepieces",
+  "version": "0.0.1",
   "main": "./dist/vue-timepieces.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
