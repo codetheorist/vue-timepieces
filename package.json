@@ -1,13 +1,15 @@
 {
   "name": "@codetheorist/vue-timepieces",
-  "version": "0.0.2.alpha-1",
+  "version": "0.0.3",
   "main": "./dist/vue-timepieces.common.js",
   "scripts": {
+    "version": "npm version `auto version` -m 'Bump version to: %s [skip ci]'",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-bundle": "vue-cli-service build --target lib --name vue-timepieces ./src/components/index.js",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
+    "release": "auto changelog && auto release",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -22,6 +24,7 @@
     "@vue/cli-service": "^4.0.0",
     "@vue/eslint-config-prettier": "^5.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
+    "auto": "^7.16.2",
     "babel-eslint": "^10.0.3",
     "chromedriver": "78",
     "eslint": "^5.16.0",

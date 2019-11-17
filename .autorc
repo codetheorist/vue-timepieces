@@ -1,0 +1,12 @@
+{
+  "repo": "https://github.com/codetheorist/vue-timepieces",
+  "owner": "codetheorist",
+  "noVersionPrefix": true,
+  "onlyPublishWithReleaseLabel": true,
+  "name": "Alex Scott",
+  "email": "codetheorist@outlook.com",
+  "labels": {
+    "skip-release": {},
+    "release": {}
+  }
+}
