@@ -6,6 +6,8 @@
     "version": "npm version `auto version` -m 'Bump version to: %s [skip ci]'",
     "publish": "npm publish && git push --follow-tags --set-upstream origin $branch",
     "release": "./scripts/release.sh",
+    "release:wet": "release-it",
+    "release:dry": "release-it --dry-run",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-bundle": "vue-cli-service build --target lib --name vue-timepieces ./src/components/index.js",
@@ -34,6 +36,7 @@
     "geckodriver": "^1.19.0",
     "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
+    "release-it": "^12.4.3",
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
   }
