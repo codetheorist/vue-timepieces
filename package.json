@@ -1,15 +1,16 @@
 {
   "name": "@codetheorist/vue-timepieces",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "main": "./dist/vue-timepieces.common.js",
   "scripts": {
     "version": "npm version `auto version` -m 'Bump version to: %s [skip ci]'",
+    "publish": "npm publish && git push --follow-tags --set-upstream origin $branch",
+    "release": "./scripts/release.sh",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-bundle": "vue-cli-service build --target lib --name vue-timepieces ./src/components/index.js",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "release": "auto changelog && auto release",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
