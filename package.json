@@ -1,6 +1,6 @@
 {
   "name": "@codetheorist/vue-timepieces",
-  "version": "0.0.8-0",
+  "version": "0.0.9",
   "main": "./dist/vue-timepieces.common.js",
   "scripts": {
     "version": "npm version `auto version` -m 'Bump version to: %s [skip ci]'",
