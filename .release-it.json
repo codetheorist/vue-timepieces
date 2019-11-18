@@ -1,5 +1,8 @@
 {
   "npm": false,
+  "git": {
+    "push": true
+  },
   "github": {
     "release": true
   }
