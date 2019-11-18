@@ -1,6 +1,6 @@
 {
   "name": "@codetheorist/vue-timepieces",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "./dist/vue-timepieces.common.js",
   "scripts": {
     "release:wet": "release-it",
